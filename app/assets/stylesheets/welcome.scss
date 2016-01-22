@@ -1,0 +1,85 @@
+* {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#cycler{
+  position: fixed;
+}
+
+div.first {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index:1;
+  background: url('stars.jpg') no-repeat center center fixed;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div.second {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index:1;
+  background: url('road.jpg') no-repeat center center fixed;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div.third {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index:1;
+  background: url('sky.jpg') no-repeat center center fixed;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#cycler div.active{
+  z-index:3;
+}
+
+#nav-bar {
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6)
+}
+
+.header {
+  height: 80px;
+  width: 300px;
+  position: absolute;
+  right: 30px;
+  top: 100px;
+}
+
+.content {
+  height: 100%;
+  width: 55%;
+  margin-right: 27px;
+  float: right;
+  position: relative;
+  padding: 40px;
+}
+
+.panel {
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 20px;
+  min-width: 320px;
+  h3 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+}
