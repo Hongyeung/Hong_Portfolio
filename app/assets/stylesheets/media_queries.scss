@@ -30,3 +30,38 @@
       display: inline-block;
     }
 }
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #nav-bar {
+      width: 100% !important;
+      height: 200px !important;
+      position: relative !important;
+    }
+    .content {
+      // position: relative !important;
+      width: 100% !important;
+      height: 40% !important;
+      margin: 0 0 0 0!important;
+    }
+    .header {
+      position: relative !important;
+      margin: 0 auto !important;
+      top: 15px !important;
+      right: 0 !important;
+    }
+    .nav-bar-content {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      position: relative !important;
+      margin: 0 auto !important;
+      top: 60px !important;
+      right: 0px !important;
+    }
+    .nav-bar-item {
+      display: inline-block;
+    }
+}
