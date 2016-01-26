@@ -45,7 +45,7 @@ div.third {
 #cycler div.active{
   z-index:3;
 }
-
+// Nav Bar
 #nav-bar {
   height: 100%;
   width: 40%;
@@ -61,6 +61,21 @@ div.third {
   top: 100px;
 }
 
+.nav-bar-content {
+  position: absolute;
+  right: 30px;
+  top: 280px;
+}
+
+.nav-bar-item {
+  margin-bottom: 30px;
+  h3 {
+    color: white;
+    text-align: right;
+  }
+}
+
+// Body
 .content {
   height: 100%;
   width: 55%;
@@ -76,10 +91,11 @@ div.third {
   border-radius: 5px;
   padding: 20px;
   min-width: 320px;
-  h3 {
+  h3, p, li, h4{
     color: white;
   }
-  p {
-    color: white;
-  }
+}
+
+.panel-row {
+  width: 100%;
 }

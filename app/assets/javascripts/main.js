@@ -10,4 +10,19 @@ var cycleImages = function() {
       });
     }
 setInterval(cycleImages, 15000);
+
+  $("div.panel img, div.nav-bar-item, div.icon-container").hover(function() {
+     $(this).animate({opacity: 0.6}, 250);
+     },
+       function() {
+         $(this).animate({opacity: 1}, 250);
+       }
+  )
+
+  $('a').click(function(){
+      $('html, body').animate({
+          scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+      }, 500);
+      return false;
+  });
 })

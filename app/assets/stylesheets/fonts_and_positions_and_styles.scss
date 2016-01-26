@@ -1,16 +1,80 @@
+// Fonts
+html, h1, h2, h3, p, pre, li {
+  font-family: 'Raleway', sans-serif;
+}
+
+i {
+  p{
+    text-align:center;
+    font-size: 15px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+// Positions
 .buffer {
   height: 40px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.panel-row div {
+  display: inline-block;
+  margin-right: 5px;
+}
+// Styles
+img {
+  border-radius: 5px;
+}
+
+.icon-size {
+  font-size: 72px;
+  color: white;
+}
+
+.social-icon-size {
+  font-size: 30px;
+  color: white;
+  margin: 10px;
 }
 
 .left-border {
   border-left: solid 2px;
   border-color: yellow;
 }
-html, h1, h2, h3, p, pre {
-  font-family: 'Raleway', sans-serif;
+
+.icon-container {
+  padding: 5px;
+  background-color: black;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 
-img {
+// Forms
+input {
+  height: 30px;
   border-radius: 5px;
-  opacity: 0.98;
+  border-style: none;
+  margin: 5px;
+}
+
+textarea {
+  border-radius: 5px;
+  border-style: none;
+  margin: 5px;
 }
