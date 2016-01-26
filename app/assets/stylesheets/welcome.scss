@@ -17,7 +17,7 @@ div.first {
   height: 100%;
   position: fixed;
   z-index:1;
-  background: url('stars.jpg') no-repeat center center fixed;
+  background: image-url('stars.jpg') no-repeat center center fixed;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -27,7 +27,7 @@ div.second {
   height: 100%;
   position: fixed;
   z-index:1;
-  background: url('road.jpg') no-repeat center center fixed;
+  background: image-url('road.jpg') no-repeat center center fixed;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -37,7 +37,7 @@ div.third {
   height: 100%;
   position: fixed;
   z-index:1;
-  background: url('sky.jpg') no-repeat center center fixed;
+  background: image-url('sky.jpg') no-repeat center center fixed;
   background-attachment: fixed;
   background-size: cover;
 }
