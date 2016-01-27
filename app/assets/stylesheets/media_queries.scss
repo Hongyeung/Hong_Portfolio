@@ -41,10 +41,11 @@
       position: relative !important;
     }
     .content {
-      // position: relative !important;
+      position: relative !important;
       width: 100% !important;
       height: 40% !important;
       margin: 0 0 0 0!important;
+      right: 35px !important;
     }
     .header {
       position: relative !important;
@@ -65,9 +66,12 @@
       display: inline-block !important;
     }
     .nav-bar-item h4 {
-      font-size: 8px !important;
+      margin: 6px;
+      font-size: 11px !important;
     }
     img#hong-picture {
-      display: none;
+      border-radius: 5px;
+      min-width: 300px;
+      min-height: 200px;
     }
 }
