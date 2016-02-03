@@ -21,7 +21,7 @@ setInterval(cycleImages, 15000);
 
   $('a').click(function(){
       $('html, body').animate({
-          scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+          scrollTop: $('[name="' + this.getAttribute('href').substr(1) + '"]').offset().top
       }, 500);
       return false;
   });
