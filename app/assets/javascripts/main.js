@@ -25,4 +25,5 @@ setInterval(cycleImages, 15000);
       }, 500);
       return false;
   });
+
 })
