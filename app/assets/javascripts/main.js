@@ -9,7 +9,13 @@ var cycleImages = function() {
          $next.css('z-index',3).addClass('active');//make the next image the top one
       });
     }
-setInterval(cycleImages, 15000);
+
+if (window.matchMedia("(min-width: 568px)").matches) {
+  setInterval(cycleImages, 15000);
+/* the viewport is at least 568 pixels wide */
+}
+
+
 
   $("div.panel img, div.nav-bar-item, div.icon-container").hover(function() {
      $(this).animate({opacity: 0.6}, 250);
