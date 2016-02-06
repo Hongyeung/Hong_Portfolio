@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "homepage": "https://github.com/Hongyeung/Hong_Portfolio",
+  "authors": [
+    "Hongyeung <manhongyeung@gmail.com>"
+  ],
+  "description": "hong_portfolio",
+  "main": "/Users/hongyeung/current_work/portfolio_two",
+  "moduleType": [],
+  "keywords": [
+    "portfolio"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "devicon": "*"
+  }
+}

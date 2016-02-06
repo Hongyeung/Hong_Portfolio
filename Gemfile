@@ -13,6 +13,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'fancybox-rails'
 gem 'simple_form'
 gem 'rails_12factor', group: :production
+gem 'font-awesome-rails'
+gem "bower-rails", "~> 0.10.0"
 
 
 group :development, :test do

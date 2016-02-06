@@ -12,5 +12,8 @@
  *
  *= require_tree .
  *= require fancybox
+ *= require font-awesome
+ *= require devicon
+
  *= require_self
  */
